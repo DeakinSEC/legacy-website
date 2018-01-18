@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="projects-style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="project">
+      <a href="https://github.com/PhilipCastiglione/deakin-sec-website" target="_blank"><h2>Project 1</h2></a>
+      <center>
+        <a href="https://github.com/PhilipCastiglione/deakin-sec-website" target="_blank"><img src="http://i63.tinypic.com/amwpcw.png"></a>
+      </center>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+         Aenean ullamcorper odio posuere quam lacinia tempus. 
+         Aenean leo enim, elementum non nibh non, tempor tempor mi. 
+         Nullam consequat commodo nulla, quis cursus sapien feugiat eget. 
+         Aliquam sed dapibus tortor. Nam dictum scelerisque dignissim. 
+         Suspendisse potenti. Mauris.</p>
+    </div>
+    <div class="project">
+      <a href="https://github.com/PhilipCastiglione/deakin-sec-website" target="_blank"><h2>Project 2</h2></a>
+      <center>
+        <a href="https://github.com/PhilipCastiglione/deakin-sec-website" target="_blank"><img src="http://i65.tinypic.com/14l0rgk.png"></a>
+      </center>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+         Aenean ullamcorper odio posuere quam lacinia tempus. 
+         Aenean leo enim, elementum non nibh non, tempor tempor mi. 
+         Nullam consequat commodo nulla, quis cursus sapien feugiat eget. 
+         Aliquam sed dapibus tortor. Nam dictum scelerisque dignissim. 
+         Suspendisse potenti. Mauris.</p>
+    </div>
+    <div class="project">
+      <a href="https://github.com/PhilipCastiglione/deakin-sec-website" target="_blank"><h2>Project 3</h2></a>
+      <center>
+        <a href="https://github.com/PhilipCastiglione/deakin-sec-website" target="_blank"><img src="http://i63.tinypic.com/2vb8yhe.png"></a>
+      </center>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+         Aenean ullamcorper odio posuere quam lacinia tempus. 
+         Aenean leo enim, elementum non nibh non, tempor tempor mi. 
+         Nullam consequat commodo nulla, quis cursus sapien feugiat eget. 
+         Aliquam sed dapibus tortor. Nam dictum scelerisque dignissim. 
+         Suspendisse potenti. Mauris.</p>
+    </div>
+    <div class="project">
+      <a href="https://github.com/PhilipCastiglione/deakin-sec-website" target="_blank"><h2>Project 4</h2></a>
+      <center>
+        <a href="https://github.com/PhilipCastiglione/deakin-sec-website" target="_blank"><img src="http://i67.tinypic.com/otjm87.png"></a>
+      </center>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+         Aenean ullamcorper odio posuere quam lacinia tempus. 
+         Aenean leo enim, elementum non nibh non, tempor tempor mi. 
+         Nullam consequat commodo nulla, quis cursus sapien feugiat eget. 
+         Aliquam sed dapibus tortor. Nam dictum scelerisque dignissim. 
+         Suspendisse potenti. Mauris.</p>
+    </div>
+  </body>
+</html>
