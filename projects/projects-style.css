@@ -1,0 +1,28 @@
+body {
+  display: grid;
+  grid-template: 450px / repeat(3, 415px);
+  grid-auto-rows: 450px;
+  grid-auto-columns: repeat(3, 415px);
+  grid-gap: 20px 20px;
+  grid-auto-flow: row;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.project {
+  padding: 5px;
+}
