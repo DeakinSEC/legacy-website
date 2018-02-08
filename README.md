@@ -1,7 +1,7 @@
 # Deakin SEC Website
 Repository containing the code for the Deakin Software Engineering Club (DSEC) public website
 
-This is currently a placeholder project for the DSEC website. To see the placeholder content live, visit https://philipcastiglione.github.io/deakin-sec-website
+To see the site live, visit https://philipcastiglione.github.io/deakin-sec-website
 
 ## Documentation
 
@@ -18,7 +18,7 @@ admin:
 
 major tasks:
 
-1. polish and increase consistency
+1. content
 1. make responsive (mobile, tablet, laptop, desktop/large screen)
 1. animations/interactivity/effects etc
 
@@ -26,6 +26,7 @@ design:
 
 1. footer social icons shouldn't be see through to hover effect
 1. on wide but short screens the DSEC logo on the home page grows too tall
-1. join pop up needs some refining
-1. join list style into theme
+1. join page pop up needs some refining
+1. join page list style into theme
+1. polish and increase consistency (colour, styles)
 
