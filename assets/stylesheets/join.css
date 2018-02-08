@@ -1,28 +1,14 @@
-body {
-    font-family: sans-serif;
-}
-
-.main {
-    text-align: center;
+.content {
     padding-bottom: 20px;
 }
 
-.apply {
-    text-align: center;
+.content img {
+    display: block;
+    margin: 0 auto;
 }
 
-.button-a {
-    text-align: center;
-    background-color: darkblue;
-    color: white;
-    text-decoration: none;
-    padding: 25px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border-radius: 10px;
-}
-.button-a:hover {
-    box-shadow: 0 10px 12px 0 rgba(0,0,0,0.14), 0 5px 15px 0 rgba(0,0,0,0.19);
+.content ul {
+    padding: 0 20px;
 }
 
 /* overlay popup */
@@ -33,7 +19,6 @@ body {
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.7);
-  transition: opacity 400ms;
   visibility: hidden;
   opacity: 0;
 }
@@ -49,7 +34,7 @@ body {
   border-radius: 5px;
   width: 40%;
   position: relative;
-  transition: all 5s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 .popup-content h2 {

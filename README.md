@@ -11,6 +11,21 @@ This is currently a placeholder project for the DSEC website. To see the placeho
 Join the slack channel #sec-website in DSEC slack for more.
 
 ## TODO
-1. build website components
-1. integrate components
+
+admin:
+
 1. transfer repository ownership to club (organisation) GitHub account
+
+major tasks:
+
+1. polish and increase consistency
+1. make responsive (mobile, tablet, laptop, desktop/large screen)
+1. animations/interactivity/effects etc
+
+design:
+
+1. footer social icons shouldn't be see through to hover effect
+1. on wide but short screens the DSEC logo on the home page grows too tall
+1. join pop up needs some refining
+1. join list style into theme
+

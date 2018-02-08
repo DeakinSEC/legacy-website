@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  grid-template: 33% / repeat(3, 33%);
+  grid-auto-rows: 33%;
+  grid-gap: 20px 20px;
+  grid-auto-flow: row;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.project {
+  padding: 5px;
+}
