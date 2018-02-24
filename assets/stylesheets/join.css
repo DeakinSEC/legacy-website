@@ -11,84 +11,12 @@
     padding: 0 20px;
 }
 
-/* overlay popup */
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  visibility: hidden;
-  opacity: 0;
-}
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
-}
-
-.popup-content {
-  margin: 70px auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 5px;
-  width: 40%;
-  position: relative;
-  transition: all 2s ease-in-out;
-}
-
-.popup-content h2 {
-  margin-top: 0;
-  color: #333;
-  font-family: Tahoma, Arial, sans-serif;
-}
-.popup-content .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
-}
-.popup-content .close:hover {
-  color: orange;
-}
-.popup-content .content {
-  max-height: 30%;
-  overflow: auto;
-}
-/* overlay popup end */
-
-/* overlay content */
-.content-left {
-  display: inline-block;
-  width: 40%;
-  text-align: right;
-}
-
-.content-left li {
-    padding: 1.5px;
-}
-
-.content-right {
-  display: inline-block;
-  width: 40%;
-}
-
-.listing {
-    list-style: none;
-}
-
-.popup-button {
-    text-align: center;
-}
-
-/* overlay content end */
-
-
 /* paragraph */
 .reasons {
-    list-style-image: url(http://static.tvtropes.org/pmwiki/pub/images/bullet.gif)
+    list-style: disc;
+    color: #009999;
+}
+
+.reasons li span {
+    color: #888;
 }
