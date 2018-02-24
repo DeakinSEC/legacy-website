@@ -18,15 +18,11 @@ admin:
 
 major tasks:
 
-1. content
+1. finish content
 1. make responsive (mobile, tablet, laptop, desktop/large screen)
 1. animations/interactivity/effects etc
 
 design:
 
-1. footer social icons shouldn't be see through to hover effect
-1. on wide but short screens the DSEC logo on the home page grows too tall
-1. join page pop up needs some refining
-1. join page list style into theme
 1. polish and increase consistency (colour, styles)
 
