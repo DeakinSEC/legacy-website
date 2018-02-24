@@ -41,7 +41,7 @@
 
 .hero {
   background: #021723 url("../images/dsec-hero.jpg") 50% no-repeat;
-  background-size: cover;
+  background-size: contain;
   height: 60vh;
   text-align: center;
   display: -webkit-flex;
@@ -58,7 +58,7 @@
 .hero-text h1 {
   color: #EDEDED;
   text-shadow: 2px 2px 4px #0a0a0a;
-  font-size: 40px;
+  font-size: 48px;
 }
 
 .about {
@@ -78,6 +78,12 @@
   float: left;
 }
 
+.member-img img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
 .member-info {
   float: right;
   width: 85%;
@@ -90,6 +96,7 @@
 }
 
 .sponsors p {
+  text-align: center;
   margin: 12px 28px;
 }
 
