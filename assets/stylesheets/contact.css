@@ -1,3 +1,7 @@
+.content {
+  text-align: center;
+}
+
 .left {
   display: inline-block;
   width: 40%;
