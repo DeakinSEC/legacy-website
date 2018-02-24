@@ -116,7 +116,7 @@ header {
 
 body {
   color: #888;
-  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/26px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -206,12 +206,22 @@ footer p {
 }
 
 .social-icons a {
+  padding: 3px;
   margin: 5px;
   border-radius: 50%;
 }
 
 .social-icons a:hover {
-  background-color: lightskyblue;
+  background-color: #009999;
+}
+
+.social-icons img {
+  border-radius: 50%;
+  background-color: #021723;
+}
+
+.social-icons a:hover img {
+  background-color: #173543;
 }
 
 /*
