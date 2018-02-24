@@ -9,6 +9,7 @@
 }
 
 .grid img {
+  padding: 20px 0;
   width: 100%;
 }
 
@@ -16,6 +17,24 @@ h2 {
   text-align: center;
 }
 
+.project p {
+  margin: 0;
+}
+
 .project {
-  padding: 5px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.project:hover {
+  background-color: #F5F5F5;
+}
+
+a:hover {
+  color: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
