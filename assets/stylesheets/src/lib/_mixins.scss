@@ -1,5 +1,6 @@
 $tablet: 1020px;
 $mobile: 640px;
+$tiny_mobile: 450px;
 
 @mixin breakpoint($point) {
 	@media (max-width: $point) { @content; }
