@@ -15,7 +15,7 @@ gulp.task('default', () => {
 });
 
 gulp.task('sass', () => {
-	return gulp.src('./assets/scss/**/*.scss')
+	return gulp.src('./assets/stylesheets/src/**/*.scss')
 		.pipe(sourcemaps.init())
 		.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
 		.pipe(autoprefixer({
@@ -23,7 +23,7 @@ gulp.task('sass', () => {
 			cascade: false
 		}))
 		.pipe(sourcemaps.write('./sourcemaps'))
-		.pipe(gulp.dest('./assets/css'));
+		.pipe(gulp.dest('./assets/stylesheets/build'));
 });
 
 gulp.task('js', () => {
