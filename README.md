@@ -10,6 +10,39 @@ To see the site live, visit https://philipcastiglione.github.io/deakin-sec-websi
 
 Join the slack channel #sec-website in DSEC slack for more.
 
+## Installing development requirements
+
+Ensure the have a recent version of [Node.js](https://nodejs.org) and `npm`.
+
+Open a terminal, and follow the instructions below.
+
+```bash
+cd /path/to/code
+git clone https://github.com/deakinsec/deakin-sec-website.git
+cd deakin-sec-website
+npm install
+```
+
+If all went well, you'll see no errors.
+
+## Running the development environment
+
+In your first terminal window, run `gulp` to begin watching for changes.
+
+In a second terminal window, run
+
+```bash
+node ./node_modules/http-server/bin/http-server -p 8080
+```
+
+Open up your browser and go to http://localhost:8080/. You should be able to see the
+website!
+
+## Editing HTML
+
+Do not edit the HTML files in the root directory. Instead, edit the ones inside
+the `src/` directory. The root directory files will be compiled over.
+
 ## TODO
 
 admin:
@@ -25,4 +58,3 @@ major tasks:
 design:
 
 1. polish and increase consistency (colour, styles)
-
