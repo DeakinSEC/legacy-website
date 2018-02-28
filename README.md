@@ -20,6 +20,18 @@ Open a terminal, and follow the instructions below.
 cd /path/to/code
 git clone https://github.com/deakinsec/deakin-sec-website.git
 cd deakin-sec-website
+```
+
+If you already have [gulpjs](https://gulpjs.com) installed, you can skip this next step.
+
+```bash
+npm install gulp-cli -g
+npm install gulp -D
+```
+
+You can then finalise the build installation process.
+
+```bash
 npm install
 ```
 
