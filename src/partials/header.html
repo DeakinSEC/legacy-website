@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+	<title>@@title</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="@@keywords">
+    <meta name="description" content="@@description">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/stylesheets/build/dsec.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" ><img src="assets/images/dsec-logo.png" alt="Home DSEC Logo"></a></li>
+          <li @@if (slug === 'index') {class="active"}><a href="index.html">About</a></li>
+          <li @@if (slug === 'projects') {class="active"}><a href="projects.html">Portfolio</a></li>
+          <li @@if (slug === 'join') {class="active"}><a href="join.html">Join</a></li>
+          <li @@if (slug === 'contact') {class="active"}><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>

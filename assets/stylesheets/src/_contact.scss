@@ -1,0 +1,23 @@
+.content {
+  text-align: center;
+}
+
+.contact-list {
+  list-style: none;
+}
+
+.contact-list li {
+  padding: 40px 20px;
+}
+
+table.contact {
+	width: 100%;
+	max-width: 420px;
+	margin: 0 auto 20px;
+	td, th {
+		padding: 1em;
+	}
+	th {
+		font-weight: 600;
+	}
+}

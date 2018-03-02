@@ -1,3 +1,5 @@
+@import "lib/_mixins";
+
 .grid {
   display: grid;
   grid-template: 33% / repeat(3, 33%);
@@ -6,6 +8,14 @@
   grid-auto-flow: row;
   justify-content: space-evenly;
   margin: 50px;
+  @include breakpoint($tablet) {
+	grid-template: 50% / repeat(2, 50%);
+	grid-gap: 10px;
+	margin: 20px auto;
+  }
+  @include breakpoint($mobile) {
+	  grid-template: 100% / repeat(1, 100%);
+  }
 }
 
 .grid img {

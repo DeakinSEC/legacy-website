@@ -1,10 +1,13 @@
 .content {
     padding-bottom: 20px;
+	box-sizing: border-box;
 }
 
 .content img {
     display: block;
     margin: 0 auto;
+	max-width: 100%;
+	height: auto;
 }
 
 .content ul {

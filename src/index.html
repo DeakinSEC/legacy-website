@@ -1,28 +1,9 @@
-<!doctype html>
-<html>
-  <head>
-	<title>Deakin Software Engineering Club | DSEC | Deakin University</title>
-    <meta charset="utf-8">
-    <meta name="keywords" content="software, programming, deakin, software engineering">
-    <meta name="description" content="Deakin Software Engineering Club">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="assets/stylesheets/build/dsec.css" rel="stylesheet" type="text/css">
-  </head>
-
-  <body>
-    <!-- Header -->
-    <header>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="index.html" ><img src="assets/images/dsec-logo.png" alt="Home DSEC Logo"></a></li>
-          <li class="active"><a href="index.html">About</a></li>
-          <li ><a href="projects.html">Portfolio</a></li>
-          <li ><a href="join.html">Join</a></li>
-          <li ><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
+@@include('partials/header.html', {
+	"title": "Deakin Software Engineering Club | DSEC | Deakin University",
+	"keywords": "software, programming, deakin, software engineering",
+	"description": "Deakin Software Engineering Club",
+	"slug": "index"
+})
 
 	<!-- Hero section -->
 	<section class="hero">
@@ -104,27 +85,4 @@
 
     </section>
 
-<!-- Sponsors section -->
-<section class="sponsors">
-  <h3>Sponsors</h3>
-  <p>Interested in sponsoring?</p>
-  <p>DSEC works with sponsors who promote the ethical and effective use of technology in business, consumer and government spaces. DSEC connects the brightest minds in technology at Deakin with companies looking to make a positive impact on the world.</p>
-  <div class="btn-wrap">
-	<a class="btn btn-alt" href="contact.html">Get in touch</a>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer class="group">
-  <p>DSEC &copy 2018</p>
-  <div class="social-icons">
-	<a href="" target="_blank"><img src="assets/images/social/facebook.png" alt="DSEC on Facebook"></a>
-	<a href="" target="_blank"><img src="assets/images/social/linkedin.png" alt="DSEC on LinkedIn"></a>
-	<a href="" target="_blank"><img src="assets/images/social/stack-ex.png" alt="DSEC on Stack Exchange"></a>
-	<br/>
-  </div>
-</footer>
-<script async src="assets/js/dist/app.js"></script>
-</body>
-</html>
-
+@@include('partials/footer.html')

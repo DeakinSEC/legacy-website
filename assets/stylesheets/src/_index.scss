@@ -1,0 +1,117 @@
+@import "lib/_mixins";
+
+/*
+  ==============================================
+  Home
+  ==============================================
+*/
+
+.hero {
+  background: #021723 url("../../images/dsec-hero.jpg") 50% no-repeat;
+  background-size: contain;
+  height: 60vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+       -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+            -ms-flex-pack: center;
+          justify-content: center;
+  @include breakpoint($tablet) {
+      height: 50vh;
+  }
+  @include breakpoint($mobile) {
+      height: 40vh;
+  }
+  @include breakpoint($tiny_mobile) {
+      height: 30vh;
+  }
+}
+
+.hero-text h1 {
+  color: #EDEDED;
+  text-shadow: 2px 2px 4px #0a0a0a;
+  font-size: 48px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  line-height: 1.2em;
+  @include breakpoint($tablet) {
+      font-size: 36px;
+  }
+  @include breakpoint($mobile) {
+      font-size: 26px;
+  }
+}
+
+.about {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  @include breakpoint($mobile) {
+      margin-top: 20px;
+  }
+}
+
+.profile {
+  margin-bottom: 40px;
+  @include breakpoint($mobile) {
+      margin-bottom: 20px;
+  }
+}
+
+.profile p {
+  margin: 0;
+}
+
+.member-img {
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+  @include breakpoint($mobile) {
+      float: none;
+      margin: 0 0 20px;
+      width: 100%;
+  }
+}
+
+.member-img img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  @include breakpoint($mobile) {
+      display: block;
+      margin: 0 auto;
+  }
+}
+
+.member-info {
+  float: right;
+  width: calc(100% - 120px);
+  @include breakpoint($mobile) {
+      float: none;
+      width: 100%;
+  }
+}
+
+.sponsors {
+  color: #EDEDED;
+  background-color: #009999;
+  padding: 20px 0;
+
+  h3 {
+      margin: 0 0 1em;
+  }
+
+  .btn-alt {
+      color: #009999;
+      font-weight: 400;
+      letter-spacing: 0;
+  }
+}
+
+.sponsors p {
+  text-align: center;
+  margin: 12px 28px;
+}
