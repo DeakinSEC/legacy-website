@@ -1,7 +1,7 @@
 # Deakin SEC Website
 Repository containing the code for the Deakin Software Engineering Club (DSEC) public website
 
-To see the site live, visit https://philipcastiglione.github.io/deakin-sec-website
+To see the site live, visit https://deakinsec.github.io/deakin-sec-website
 
 ## Documentation
 
@@ -57,14 +57,9 @@ the `src/` directory. The root directory files will be compiled over.
 
 ## TODO
 
-admin:
-
-1. transfer repository ownership to club (organisation) GitHub account
-
 major tasks:
 
 1. finish content
-1. make responsive (mobile, tablet, laptop, desktop/large screen)
 1. animations/interactivity/effects etc
 
 design:
