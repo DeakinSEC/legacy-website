@@ -1,3 +1,5 @@
+# Repository is no longer maintained
+
 # Deakin SEC Website
 Repository containing the code for the Deakin Software Engineering Club (DSEC) public website
 
@@ -13,7 +15,7 @@ Join the slack channel #sec-website in DSEC slack for more.
 ## Deployment
 
 The `master` branch is continuously deployed
-[here](https://deakinsec.github.io/deakin-sec-website)
+[here](https://deakinsec.github.io/legacy-website/)
 via [GitHub pages](https://pages.github.com/).
 
 The `develop` branch contains additional features or work in progress that is
